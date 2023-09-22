@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title><%=materia%></title>
+    <link rel="shortcut icon" href="/images/icon-logo.png" />
+    <link rel="stylesheet" href="/css/reveal.min.css" />
+    <link
+      rel="stylesheet"
+      href="/css/league.min.css"
+    />
+    <link rel="stylesheet" href="/css/style.css" />
+    <style></style>
+  </head>
+  
+  <body>
+     <div class="reveal">
+      <div class="slides">
+        <!-- ABERTURA -->
+        <!-- Fim abertura -->
+      <%for(let [ind, present] of data.entries()){%>
+        <%if(present.list.length === 0){%>
+        <section>
+          <h1 style="color: yellow; font-size: 7rem; margin-top: -90px"><%=present.title%></h1>
+          <%if(present.text != ''){%>
+          <p><%=present.text%></p>
+          <%}%>
+          <img
+            id="logo"
+            style="width: 10em; margin-top: -35px;"
+            src="<%=present.image%>"
+          />
+        </section>
+          <%}else if(present.list.length > 0){%>
+
+          <section>
+          <h2 id="title<%=ind%>" style="color: aqua; display: none">
+          </h2>
+          <h3 id="topic<%=ind%>" style="display: none; color: #2fff2a">
+          </h3>
+            <section data-transition="slide">
+              <h2 class="title" style="color: aqua; display: none">
+              <%=present.title%>
+              </h2>
+              <p><%=present.text%></p>
+              <ul>
+               <%for(let it of present.list){%>
+              <li class="fragment fade-down" style="color: #2fff2a">        
+                <%=it%>
+              </li>
+                 <%}%>
+              </ul>
+            </section >
+
+                   
+            <%for(let [ind, elem] of present.sections.entries()){%>
+            <section data-transition="fade">
+              <h2 class="title" style="color: aqua; display: none">
+              <%=present.title%>
+               </h2>
+              <h3 class="topic" style="color: #2fff2a; display: none">
+              <%=present.list[ind]%>
+                </h3>
+                <p>
+             <%=elem.text%>
+              </p>
+            </section>
+                     <%}%>
+          </section>
+            
+            <%}%>
+          <%}%>          
+      </div>
+    </div>
+
+    <div
+      style="
+        text-align: center;
+        position: absolute;
+        width: 100%;
+        bottom: 10px;
+        font-size: 1rem;
+      "
+    >
+      <img id="detail-image" src="/images/logo-nr-w.png" style="width: 13rem; margin-bottom: -37px" />
+      <p
+        style="
+          color: #3adbff;
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 12px;
+    margin-top: -9px;
+    line-height: 14px;
+    margin-bottom: -35px;
+        "
+      >
+        <span id="detail-curse" style="color: #fbff98"><%=curse%></span> <br />
+        <span id="detail-materia" style="color: #fbff98"><%=materia%></span><br />
+        <span id="detail-teacher"><%=teacher%></span> <br />
+        <button
+          style="
+            color: #d2f4ffbf;
+            font-family: sans-serif;
+            text-decoration: none;
+            border-radius: 6px;
+            background-color: #363643;
+            margin-top: 5px;
+          "
+          onclick="printPDF()"
+        >
+        <img class="btn-img" src="/images/pdf.png"/>
+        </button>
+        <button
+          style="
+            color: #d2f4ffbf;
+            font-family: sans-serif;
+            text-decoration: none;
+            border-radius: 6px;
+            background-color: #363643;
+            margin-top: 5px;
+          "
+          onclick="changeScreen(this)"
+        >
+        <img class="btn-img" id="img-screen" src="/images/expand.png"/>
+        </button>
+        <button
+          style="
+            color: #d2f4ffbf;
+            font-family: sans-serif;
+            text-decoration: none;
+            border-radius: 6px;
+            background-color: #363643;
+            margin-top: 5px;
+          "
+          onclick="getPageHome()"
+        >
+        <img class="btn-img" src="/images/casa.png"/>
+        </button>
+      </p>
+    </div>
+    <script src="/js/reveal.js"></script>
+            <script src="/js/jquery.min.js"></script>
+    <script src="/js/script.js"></script>
+    <script src="/js/routes.js"></script>
+  </body>
+</html>

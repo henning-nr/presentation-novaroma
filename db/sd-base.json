@@ -1,0 +1,447 @@
+{
+    "sistemas-distribuidos": [
+        {
+            "title": "Sistemas Distribuídos",
+            "image": "https://www.pngkit.com/png/full/272-2722152_are-you-looking-for-network-server-or-computer.png",
+            "text": "",
+            "list": [],
+            "sections": []
+        },
+        {
+            "title": "Sistemas Distribuídos?",
+            "image": "",
+            "text": "Sistemas distribuídos são compostos por diversos componentes que se comunicam por meio de uma rede, permitindo a execução de tarefas de forma distribuída e escalável.",
+            "list": [],
+            "sections": []
+        },
+        {
+            "title": "Aspectos de Sistemas Distribuídos",
+            "image": "",
+            "text": " Existem vários aspectos importantes em Sistemas Distribuídos. Veja os principais:",
+            "list": [
+                "Comunicação",
+                "Coordenação",
+                "Consistência",
+                "Escalabilidade",
+                "Tolerância a falhas"
+            ],
+            "sections": [
+                {
+                    "title": "Comunicação",
+                    "image": "",
+                    "text": "A comunicação entre componentes é essencial em sistemas distribuídos. Protocolos como HTTP, RPC e REST são comuns nesse contexto."
+                },
+                {
+                    "title": "Coordenação",
+                    "image": "",
+                    "text": "Em sistemas distribuídos, é necessário coordenar a execução de tarefas e a disponibilidade de recursos entre os componentes. Ferramentas como ZooKeeper e Consul são exemplos de soluções de coordenação."
+                },
+                {
+                    "title": "Consistência",
+                    "image": "",
+                    "text": "Manter a consistência dos dados em um sistema distribuído é um desafio. Modelos como ACID e BASE são utilizados para garantir a integridade dos dados e transações."
+                },
+                {
+                    "title": "Escalabilidade",
+                    "image": "",
+                    "text": "A escalabilidade é uma característica fundamental em sistemas distribuídos, permitindo a expansão dos recursos de acordo com a demanda. Técnicas como particionamento e replicação são utilizadas para escalabilidade horizontal e vertical."
+                },
+                {
+                    "title": "Tolerância a falhas",
+                    "image": "",
+                    "text": "Em sistemas distribuídos, é comum a ocorrência de falhas em um ou mais componentes. Estratégias de tolerância a falhas, como redundância e eleição de líder, são adotadas para minimizar o impacto dessas falhas."
+                }
+            ]
+        },
+        {
+            "title": "Escalabilidade em SD",
+            "image": "",
+            "text": "Sistemas distribuídos requerem escalabilidade para lidar com grandes volumes de dados e acessos concorrentes. A escalabilidade pode ser horizontal ou vertical.",
+            "list": [
+                "Escalabilidade Horizontal",
+                "Escalabilidade Vertical"
+            ],
+            "sections": [
+                {
+                    "title": "Escalabilidade Horizontal",
+                    "image": "",
+                    "text": "Adicionar novos componentes ao sistema e distribuir a carga de trabalho entre eles é a escalabilidade horizontal. Aumenta a capacidade do sistema sem precisar aumentar a capacidade individual de cada componente."
+                },
+                {
+                    "title": "Escalabilidade Vertical",
+                    "image": "",
+                    "text": "Aumentar a capacidade individual dos componentes como processadores, memória e armazenamento é a escalabilidade vertical. Cada componente pode lidar com mais carga de trabalho e aumenta a capacidade do sistema como um todo."
+                }
+            ]
+        },
+        {
+            "title": "Balanceamento de Carga",
+            "image": "",
+            "text": "O balanceamento de carga é uma técnica para distribuir a carga de trabalho em sistemas distribuídos. Algumas técnicas utilizadas incluem:",
+            "list": [
+                "Round-robin",
+                "Least connection",
+                "IP hash",
+                "Algoritmos de balanceamento dinâmico"
+            ],
+            "sections": [
+                {
+                    "title": "Round-robin",
+                    "image": "",
+                    "text": "Cada requisição é direcionada ao próximo componente na fila."
+                },
+                {
+                    "title": "Least connection",
+                    "image": "",
+                    "text": "As requisições são direcionadas ao componente com a menor carga de trabalho."
+                },
+                {
+                    "title": "IP hash",
+                    "image": "",
+                    "text": "As requisições são direcionadas ao componente com base no endereço IP do cliente."
+                },
+                {
+                    "title": "Algoritmos de balanceamento dinâmico",
+                    "image": "",
+                    "text": "As cargas são distribuídas dinamicamente de acordo com a demanda de cada componente."
+                }
+            ]
+        },
+        {
+            "title": "Replicação de Dados",
+            "image": "",
+            "text": "A replicação de dados é uma técnica em sistemas distribuídos para garantir disponibilidade e tolerância a falhas, mantendo cópias em diferentes componentes do sistema. Algumas estratégias incluem:",
+            "list": [
+                "Replicação síncrona",
+                "Replicação assíncrona",
+                "Replicação de múltiplas cópias"
+            ],
+            "sections": [
+                {
+                    "title": "Replicação síncrona",
+                    "image": "",
+                    "text": "Replica os dados em tempo real em vários componentes, tornando a escrita mais lenta, mas garantindo que todos os componentes tenham as mesmas informações atualizadas."
+                },
+                {
+                    "title": "Replicação assíncrona",
+                    "image": "",
+                    "text": "Replica os dados em intervalos regulares em diferentes componentes, tornando a escrita mais rápida, mas podendo haver inconsistências temporárias entre os componentes."
+                },
+                {
+                    "title": "Replicação de múltiplas cópias",
+                    "image": "",
+                    "text": "Mantém várias cópias dos dados em diferentes componentes, garantindo alta disponibilidade e tolerância a falhas, mas aumentando a complexidade da sincronização e gerenciamento de dados."
+                }
+            ]
+        },
+        {
+            "title": "Processamento Distribuído",
+            "image": "",
+            "text": "O processamento distribuído é um paradigma de computação em que várias tarefas são executadas em paralelo em um conjunto de máquinas interconectadas. Algumas técnicas utilizadas incluem:",
+            "list": [
+                "Computação em grade",
+                "Computação em nuvem",
+                "Computação em cluster",
+                "Computação em rede"
+            ],
+            "sections": [
+                {
+                    "title": "Computação em Grade",
+                    "image": "",
+                    "text": "A computação em grade é uma forma de processamento distribuído em que várias máquinas independentes são conectadas em uma rede e trabalham juntas para realizar uma tarefa complexa principalmente em projetos de pesquisa científica e engenharia."
+                },
+                {
+                    "title": "Computação em Nuvem",
+                    "image": "",
+                    "text": "A computação em nuvem é uma forma de processamento distribuído em que várias máquinas são interconectadas e oferecem serviços pela internet. Essa técnica permite que as empresas usem recursos de computação em larga escala."
+                },
+                {
+                    "title": "Computação em Cluster",
+                    "image": "",
+                    "text": "A computação em cluster é uma forma de processamento distribuído em que várias máquinas independentes são conectadas em uma rede e trabalham juntas para executar uma única tarefa principalmente em aplicativos de processamento de dados na pesquisa na web."
+                },
+                {
+                    "title": "Computação em Rede",
+                    "image": "",
+                    "text": "A computação em rede é uma forma de processamento distribuído em que várias máquinas independentes são conectadas em uma rede e trabalham juntas para executar uma tarefa e é usada principalmente em aplicativos de processamento de dados em tempo real."
+                }
+            ]
+        },
+        {
+            "title": "Protocolos de comunicação em SD",
+            "image": "",
+            "text": "Protocolos de comunicação são essenciais para garantir a integridade e confiabilidade das informações transmitidas em sistemas distribuídos. Algumas técnicas e práticas utilizadas incluem:",
+            "list": [
+                "Protocolos de transporte",
+                "Protocolos de aplicação",
+                "Protocolos de roteamento",
+                "Protocolos de controle de congestionamento",
+                "Protocolos de consistência de dados"
+            ],
+            "sections": [
+                {
+                    "title": "Protocolos de transporte",
+                    "image": "",
+                    "text": "Os protocolos de transporte, como TCP e UDP, garantem a entrega confiável e ordenada de pacotes de dados entre os componentes de um sistema distribuído."
+                },
+                {
+                    "title": "Protocolos de aplicação",
+                    "image": "",
+                    "text": "Os protocolos de aplicação, como HTTP e FTP, definem como as informações são estruturadas, formatadas e transmitidas entre os componentes de um sistema distribuído."
+                },
+                {
+                    "title": "Protocolos de roteamento",
+                    "image": "",
+                    "text": "Os protocolos de roteamento, como OSPF e BGP, determinam as rotas que os pacotes de dados devem seguir através da rede, garantindo a entrega eficiente e confiável das informações."
+                },
+                {
+                    "title": "Protocolos de controle de congestionamento",
+                    "image": "",
+                    "text": "Os protocolos de controle de congestionamento, como TCP Vegas e TCP Westwood, gerenciam o fluxo de dados na rede, evitando que os componentes fiquem sobrecarregados e garantindo a entrega confiável das informações."
+                },
+                {
+                    "title": "Protocolos de consistência de dados",
+                    "image": "",
+                    "text": "Os protocolos de consistência de dados, como o Paxos e o Raft, garantem que todos os componentes de um sistema distribuído estejam sempre atualizados com as informações mais recentes."
+                }
+            ]
+        },
+        {
+            "title": "Transações em Sistemas Distribuídos",
+            "image": "",
+            "text": "Transações são usadas em sistemas distribuídos para garantir a atomicidade, consistência, isolamento e durabilidade das operações. Algumas técnicas utilizadas incluem:",
+            "list": [
+                "Commit distribuído",
+                "Rollback distribuído",
+                "Two-phase commit",
+                "Three-phase commit"
+            ],
+            "sections": [
+                {
+                    "title": "Commit distribuído",
+                    "image": "",
+                    "text": "O commit distribuído é usado em transações distribuídas para confirmar que todas as operações envolvidas foram concluídas com sucesso e que os dados foram atualizados em todos os locais necessários."
+                },
+                {
+                    "title": "Rollback distribuído",
+                    "image": "",
+                    "text": "O rollback distribuído é usado em transações distribuídas para desfazer as alterações em caso de falhas ou erros no processamento."
+                },
+                {
+                    "title": "Two-phase commit",
+                    "image": "",
+                    "text": "O two-phase commit é um protocolo usado em transações distribuídas para garantir a atomicidade das operações, ou seja, todas as operações são concluídas com sucesso ou todas são desfeitas em caso de falhas."
+                },
+                {
+                    "title": "Three-phase commit",
+                    "image": "",
+                    "text": "O three-phase commit é uma extensão do two-phase commit que adiciona uma terceira fase para melhorar a tolerância a falhas em sistemas distribuídos."
+                }
+            ]
+        },
+        {
+            "title": "Consistência de dados em SD",
+            "image": "",
+            "text": "Consistência é a garantia de que um sistema distribuído sempre retorna o resultado mais atualizado possível. Algumas técnicas utilizadas para garantir a consistência de dados incluem:",
+            "list": [
+                "Consistência eventual",
+                "Consistência forte",
+                "Modelo BASE",
+                "Modelo ACID"
+            ],
+            "sections": [
+                {
+                    "title": "Consistência eventual",
+                    "image": "",
+                    "text": "Neste modelo, o sistema assume que eventualmente todos os dados serão consistentes. É adequado para sistemas que precisam de alta disponibilidade e toleram inconsistências temporárias."
+                },
+                {
+                    "title": "Consistência forte",
+                    "image": "",
+                    "text": "Este modelo garante que todos os dados sejam consistentes em tempo real. É adequado para sistemas que requerem integridade máxima, mas pode ter um impacto negativo na escalabilidade."
+                },
+                {
+                    "title": "Modelo BASE",
+                    "image": "",
+                    "text": "Este modelo prioriza a disponibilidade e permite que os dados estejam inconsistentes em momentos específicos. Quando a disponibilidade é mais importante que a consistência, o modelo BASE é uma boa escolha."
+                },
+                {
+                    "title": "Modelo ACID",
+                    "image": "",
+                    "text": "Este modelo prioriza a consistência em detrimento da disponibilidade. É adequado para sistemas que requerem altos níveis de integridade e precisão dos dados."
+                }
+            ]
+        },
+        {
+            "title": "Processamento de Stream em SD",
+            "image": "",
+            "text": "O processamento de stream em sistemas distribuídos é utilizado para processar dados em tempo real, permitindo que os dados sejam analisados à medida que são gerados. Algumas técnicas usadas incluem:",
+            "list": [
+                "Modelos de processamento de stream",
+                "Plataformas de processamento de stream",
+                "Integração de processamento de stream de dados"
+            ],
+            "sections": [
+                {
+                    "title": "Modelos de Processamento de Stream",
+                    "image": "",
+                    "text": "Os modelos de processamento de stream determinam como os dados serão processados, desde a ingestão até a análise. Alguns modelos comuns incluem: processamento de janelas, processamento de fluxo contínuo e processamento de microbatches."
+                },
+                {
+                    "title": "Plataformas de Processamento de Stream",
+                    "image": "",
+                    "text": "As plataformas de processamento de stream fornecem ferramentas para simplificar a ingestão, processamento e análise de dados em tempo real. Exemplos incluem Apache Kafka, Apache Flink e Amazon Kinesis."
+                },
+                {
+                    "title": "Integração de Processamento de Stream de Dados",
+                    "image": "",
+                    "text": "O processamento de stream pode ser integrado em pipelines de dados maiores para fornecer insights em tempo real. Isso envolve a ingestão de dados de várias fontes, processamento de stream em tempo real e armazenamento dos resultados em um local acessível."
+                }
+            ]
+        },
+        {
+            "title": "Segurança em Sistemas Distribuídos",
+            "image": "",
+            "text": "A segurança é fundamental em sistemas distribuídos para garantir a integridade, confidencialidade e disponibilidade das informações. Algumas técnicas utilizadas incluem:",
+            "list": [
+                "Gerenciamento de chaves",
+                "Autenticação e autorização",
+                "Criptografia de dados",
+                "Auditoria e registro de atividades",
+                "Firewalls e detecção de intrusos"
+            ],
+            "sections": [
+                {
+                    "title": "Gerenciamento de Chaves",
+                    "image": "",
+                    "text": "O gerenciamento de chaves é importante para garantir a segurança em sistemas distribuídos, permitindo que apenas usuários autorizados possam acessar informações criptografadas. Algumas técnicas e práticas utilizadas incluem: geração segura de chaves e armazenamento"
+                },
+                {
+                    "title": "Autenticação e Autorização",
+                    "image": "",
+                    "text": "A autenticação e autorização são técnicas utilizadas para garantir que apenas usuários autorizados possam acessar informações em um sistema distribuído. Algumas técnicas utilizadas incluem: autenticação multifator, token de acesso, controle de acesso baseado em funções."
+                },
+                {
+                    "title": "Criptografia de Dados",
+                    "image": "",
+                    "text": "A criptografia de dados é uma técnica utilizada para proteger informações em sistemas distribuídos. Algumas técnicas utilizadas incluem: criptografia simétrica e assimétrica, hashing de senhas e certificados digitais."
+                },
+                {
+                    "title": "Auditoria e Registro de Atividades",
+                    "image": "",
+                    "text": "A auditoria e o registro de atividades são importantes para garantir a segurança em sistemas distribuídos, permitindo que as atividades sejam rastreadas e analisadas posteriormente. Algumas técnicas utilizadas incluem: logs de auditoria e monitoramento."
+                },
+                {
+                    "title": "Firewalls e Detecção de Intrusos",
+                    "image": "",
+                    "text": "Os firewalls e a detecção de intrusos são técnicas utilizadas para proteger sistemas distribuídos contra ataques externos. Algumas técnicas utilizadas incluem: filtragem de pacotes, inspeção profunda de pacotes, detecção de anomalias e detecção de vulnerabilidades."
+                }
+            ]
+        },
+        {
+            "title": "Sistemas de Mensageria em SD",
+            "image": "",
+            "text": "Sistemas de mensageria são utilizados para permitir a comunicação entre diferentes componentes em sistemas distribuídos, garantindo a entrega confiável de mensagens. Alguns sistemas de mensageria incluem:",
+            "list": [
+                "Apache Kafka",
+                "RabbitMQ",
+                "Apache ActiveMQ",
+                "Amazon Simple Queue Service (SQS)"
+            ],
+            "sections": [
+                {
+                    "title": "Apache Kafka",
+                    "image": "",
+                    "text": "O Apache Kafka é uma plataforma de mensageria distribuída de alta performance, projetada para lidar com grandes volumes de dados em tempo real. Ele é amplamente utilizado em aplicações de streaming e processamento de eventos em tempo real."
+                },
+                {
+                    "title": "RabbitMQ",
+                    "image": "",
+                    "text": "O RabbitMQ é uma plataforma de mensageria open-source, que suporta diversos protocolos de comunicação, como AMQP e MQTT. Ele é utilizado em diversos tipos de aplicações distribuídas, desde microserviços até sistemas de processamento de dados em larga escala."
+                },
+                {
+                    "title": "Apache ActiveMQ",
+                    "image": "",
+                    "text": "O Apache ActiveMQ é uma plataforma de mensageria open-source, que implementa o protocolo JMS (Java Message Service). Ele é utilizado principalmente em aplicações Java, suportando diferentes tipos de mensagens e de integrações com outros sistemas."
+                },
+                {
+                    "title": "Amazon Simple Queue Service (SQS)",
+                    "image": "",
+                    "text": "O Amazon Simple Queue Service (SQS) é um serviço de mensageria gerenciado pela AWS. Ele é utilizado para desacoplar componentes em sistemas distribuídos, garantindo a entrega confiável de mensagens. O SQS suporta diferentes tipos de filas, acessos e integrações."
+                }
+            ]
+        },
+        {
+            "title": "O&G de Contêineres",
+            "image": "",
+            "text": "A orquestração e o gerenciamento de contêineres são fundamentais para garantir a escalabilidade, a disponibilidade e a eficiência de sistemas distribuídos. Alguns exemplos de ferramentas utilizadas incluem:",
+            "list": [
+                "Kubernetes",
+                "Docker Swarm",
+                "Apache Mesos",
+                "Nomad"
+            ],
+            "sections": [
+                {
+                    "title": "Kubernetes",
+                    "image": "",
+                    "text": "O Kubernetes é uma plataforma de código aberto para automatizar o gerenciamento de contêineres. Ele fornece recursos para orquestração, balanceamento de carga, escalabilidade e atualização de contêineres."
+                },
+                {
+                    "title": "Docker Swarm",
+                    "image": "",
+                    "text": "O Docker Swarm é uma ferramenta nativa do Docker para orquestração de contêineres. Ele permite criar e gerenciar clusters de contêineres de forma simples e escalável."
+                },
+                {
+                    "title": "Apache Mesos",
+                    "image": "",
+                    "text": "O Apache Mesos é uma plataforma para gerenciamento de recursos em larga escala. Ele permite executar e gerenciar contêineres em grandes clusters, com suporte a várias tecnologias de orquestração."
+                },
+                {
+                    "title": "Nomad",
+                    "image": "",
+                    "text": "O Nomad é uma ferramenta de orquestração de contêineres e aplicativos que permite gerenciar e escalonar aplicativos em vários data centers e clouds públicas."
+                }
+            ]
+        },
+        {
+            "title": "Computação em Nuvem e SD",
+            "image": "",
+            "text": "A computação em nuvem é uma forma de sistemas distribuídos em que a infraestrutura é fornecida como um serviço. Isso permite que empresas e usuários finais tenham acesso a recursos de computação escaláveis e flexíveis.",
+            "list": [
+                "Virtualização",
+                "Containerização",
+                "Automação de infraestrutura",
+                "Orquestração de contêineres",
+                "Gerenciamento de clusters"
+            ],
+            "sections": [
+                {
+                    "title": "Virtualização",
+                    "image": "",
+                    "text": "A virtualização é uma técnica utilizada em sistemas distribuídos para criar múltiplas instâncias virtuais de um mesmo recurso físico, como um servidor ou um sistema operacional. Isso permite que diferentes aplicações possam ser executadas em um mesmo hardware."
+                },
+                {
+                    "title": "Containerização",
+                    "image": "",
+                    "text": "A containerização é uma técnica utilizada em sistemas distribuídos para encapsular aplicações e suas dependências em um único pacote chamado de contêiner. Isso permite que as aplicações sejam executadas de forma isolada em diferentes ambientes."
+                },
+                {
+                    "title": "Automação de infraestrutura",
+                    "image": "",
+                    "text": "A automação de infraestrutura é uma prática utilizada em sistemas distribuídos para automatizar a configuração, provisionamento e gerenciamento de recursos de infraestrutura, como servidores, redes e armazenamento de forma mais eficiente e escalável."
+                },
+                {
+                    "title": "Orquestração de contêineres",
+                    "image": "",
+                    "text": "A orquestração de contêineres é uma técnica utilizada em sistemas distribuídos para gerenciar e escalar automaticamente contêineres de aplicações em um cluster de servidores. As aplicações podem ser executadas de forma escalável e tolerante a falhas."
+                },
+                {
+                    "title": "Gerenciamento de clusters",
+                    "image": "",
+                    "text": "O gerenciamento de clusters é uma prática utilizada em sistemas distribuídos para gerenciar e monitorar um conjunto de servidores e recursos de infraestrutura que trabalham juntos para fornecer um serviço gerenciável de forma centralizada e escalável."
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Disciplinas ADS</title>
+    <link rel="shortcut icon" href="/images/icon-logo.png" />
+    <link rel="stylesheet" href="/css/style.css" />
+
+  </head>
+  
+  <div id="app">
+
+  </div>
+  
+
+    </div>
+  </body>
+    <script src="/js/jquery.min.js"></script>
+    <script src="/js/routes.js"></script>
+    <script>
+
+$(document).ready(function(){
+  
+  
+  $.ajax({
+    url: '/home',
+    type: 'GET',
+    success: function (data) {
+      $('#app').html(data)
+      // console.log(data)
+    },
+    error: function (err) {
+      console.log(err)
+    }
+  })
+});
+    
+    
+    </script>
+</html>
