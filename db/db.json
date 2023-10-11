@@ -89,7 +89,7 @@
     {
       "title": "Os desafios do DevOps",
       "image": "https://example.com/services.jpg",
-      "text": "Existem diversos tipos de serviços em Cloud Computing, tais como:",
+      "text": "Alguns dos principais desafios dentro de Devops são:",
       "list": [
         "Mudança cultural",
         "Integração de ferramentas e sistemas legados",
@@ -190,7 +190,7 @@
     {
       "title": "Resumo Geral",
       "image": "",
-      "text": "Existem diversas ferramentas que auxiliam na implatação do Devops, sendo essas ferramentas de:",
+      "text": "Entender sobre Devops requer muito mais que só cultura, como exemplo:",
       "list": [
         "O Devops",
         "As práticas",
@@ -235,7 +235,7 @@
     {
       "title": "Conclusão",
       "image": "",
-      "text": "O DevOps é uma abordagem contínua e iterativa, que exige monitoramento e feedback constantes para melhorar continuamente o processo de desenvolvimento e entrega de software.",
+      "text": "O DevOps é uma abordagem contínua e iterativa, que exige monitoramento e feedback constantes para melhorar continuamente a cultura e o processo de desenvolvimento e entrega de software.",
       "list": [],
       "sections": []
     }
