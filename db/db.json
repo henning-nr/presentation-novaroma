@@ -1227,10 +1227,10 @@
       "sections":[]
     }
   ],
-    "fullstack-arquitetura": [
+  "fullstack-arquitetura": [
       {
         "title": "Introdução ao Desenvolvimento Fullstack",
-        "image": "URL_DA_IMAGEM",
+        "image": "/images/fullstack.png",
         "text": "",
         "list": [],
         "sections": []
@@ -1243,14 +1243,14 @@
         "sections": []
       },
       {
-        "title": "Benefícios do Desenvolvimento Fullstack",
+        "title": "Benefícios do Fullstack",
         "image": "",
         "text": "Alguns benefícios do desenvolvimento Fullstack incluem:",
         "list": [
           "Visão abrangente do desenvolvimento web",
           "Maior flexibilidade",
-          "Compreensão do ciclo completo do desenvolvimento",
-          "Potencial para trabalho independente em projetos menores"
+          "Compreensão do ciclo do desenvolvimento",
+          "Potencial para trabalho independente em projetos"
         ],
         "sections": [
           {
@@ -1260,36 +1260,255 @@
           },
           {
             "title": "Maior flexibilidade",
-            "image": "URL_DA_IMAGEM",
+            "image": "",
             "text": "A capacidade de trabalhar em ambas as partes da aplicação proporciona maior flexibilidade, especialmente em projetos onde a colaboração entre frontend e backend é crucial."
           },
           {
-            "title": "Compreensão do ciclo completo do desenvolvimento",
+            "title": "Compreensão do ciclo do desenvolvimento",
             "image": "",
             "text": "Entender tanto o frontend quanto o backend permite que os desenvolvedores Fullstack compreendam o ciclo completo do desenvolvimento de software, desde a concepção até a implementação e manutenção."
           },
           {
-            "title": "Potencial para trabalho independente em projetos menores",
+            "title": "Potencial para trabalho independente em projetos",
             "image": "",
             "text": "Em projetos menores, um desenvolvedor Fullstack pode lidar com todos os aspectos do desenvolvimento, proporcionando eficiência e reduzindo a necessidade de uma equipe extensa."
           }
         ]
       },
       {
-        "title": "Tecnologias no Desenvolvimento Fullstack",
+        "title": "Tecnologias no Fullstack",
         "image": "",
         "text": "O desenvolvimento Fullstack envolve o uso de diversas tecnologias. Algumas delas são:",
         "list": [
           "Frontend: HTML, CSS, JavaScript, Frameworks como React, Angular ou Vue",
           "Backend: Node.js, Django, Flask, Ruby on Rails",
           "Banco de Dados: MongoDB, MySQL, PostgreSQL",
-          "Controle de Versão: Git"
+          "Controle de Versão: Git, GitHub, GitLab, Bitbucket"
         ],
         "sections": []
       },
       {
-        "title": "Arquitetura de Software no Desenvolvimento Fullstack",
-        "image": "URL_DA_IMAGEM",
+        "title": "Tecnologias Frontend",
+        "image": "",
+        "text": "As tecnologias Frontend desempenham um papel crucial no desenvolvimento Fullstack. Algumas delas incluem:",
+        "list": [
+          "HTML",
+          "CSS",
+          "JavaScript",
+          "Frameworks como React, Angular ou Vue"
+        ],
+        "sections": [
+          {
+            "title": "HTML",
+            "image": "",
+            "text": "HTML (Hypertext Markup Language) é a linguagem padrão para criar e estruturar páginas web. Ele fornece os elementos básicos necessários para a criação de conteúdo na web."
+          },
+          {
+            "title": "CSS",
+            "image": "",
+            "text": "CSS (Cascading Style Sheets) é usado para estilizar e formatar a apresentação de documentos HTML. Ele permite a personalização do layout, cores e estilos das páginas web."
+          },
+          {
+            "title": "JavaScript",
+            "image": "",
+            "text": "JavaScript é uma linguagem de programação que permite a interação dinâmica com elementos em uma página web. Ele é essencial para a criação de experiências interativas e dinâmicas."
+          },
+          {
+            "title": "Frameworks como React, Angular ou Vue",
+            "image": "",
+            "text": "Frameworks como React, Angular e Vue são ferramentas poderosas para o desenvolvimento Frontend. Eles simplificam a criação de interfaces de usuário complexas, oferecem gerenciamento de estado eficiente e facilitam a manutenção do código."
+          }
+        ]
+      },
+      {
+        "title": "Frameworks Frontend",
+        "image": "",
+        "text": "Frameworks frontend desempenham um papel fundamental no desenvolvimento Fullstack. Algumas opções populares são:",
+        "list": [
+          "React",
+          "Angular",
+          "Vue",
+          "Svelte"
+        ],
+        "sections": [
+          {
+            "title": "React",
+            "image": "",
+            "text": "React é uma biblioteca JavaScript mantida pelo Facebook. Ela é utilizada para construir interfaces de usuário reativas e eficientes. A abordagem de componentes torna o desenvolvimento modular e fácil de manter."
+          },
+          {
+            "title": "Angular",
+            "image": "",
+            "text": "Angular é um framework mantido pelo Google. Ele oferece uma abordagem abrangente para o desenvolvimento frontend, incluindo gerenciamento de estado, injeção de dependência e uma estrutura robusta para a construção de aplicativos escaláveis."
+          },
+          {
+            "title": "Vue",
+            "image": "",
+            "text": "Vue é um framework progressivo para a construção de interfaces de usuário. Sua sintaxe simples e flexibilidade tornam-no fácil de integrar em projetos existentes. Vue é frequentemente escolhido por sua curva de aprendizado suave."
+          },
+          {
+            "title": "Svelte",
+            "image": "",
+            "text": "Svelte é um framework que se destaca por mover a maior parte do trabalho de construção para o tempo de compilação. Isso resulta em aplicativos mais leves e eficientes em tempo de execução, proporcionando uma experiência de desenvolvimento única."
+          }
+        ]
+      },
+      {
+        "title": "Entendendo SSR, CSR e SSG na Web",
+        "image": "",
+        "text": "No desenvolvimento web, diferentes abordagens para renderização de páginas têm um impacto significativo no desempenho e na experiência do usuário. Neste tópico, exploraremos três dessas abordagens:",
+        "list": [
+          "Server-Side Rendering (SSR)",
+          "Client-Side Rendering (CSR)",
+          "Static Site Generation (SSG)"
+        ],
+        "sections": [
+          {
+            "title": "Server-Side Rendering (SSR)",
+            "image": "",
+            "text": "SSR envolve renderização no servidor antes de enviar ao navegador, melhorando SEO e desempenho inicial. Frameworks populares: Next.js (React), Nuxt.js (Vue). Requer processamento no servidor, potencialmente aumentando carga."
+          },
+          {
+            "title": "Client-Side Rendering (CSR)",
+            "image": "",
+            "text": "CSR faz renderização no navegador, proporcionando interatividade e escalabilidade. Frameworks populares: React, Angular, Vue. Carga inicial pode ser lenta devido ao download e execução de scripts no navegador."
+          },
+          {
+            "title": "Static Site Generation (SSG)",
+            "image": "",
+            "text": "SSG pré-renderiza páginas, proporcionando desempenho superior e segurança. Conteúdo é gerado como HTML estático, distribuído por CDNs para tempos de carregamento rápidos. Ferramentas populares: Gatsby (React), Gridsome (Vue)."
+          }
+        ]
+      },
+      {
+        "title": "Linguagens Backend",
+        "image": "",
+        "text": "No desenvolvimento Fullstack, a escolha da tecnologia backend é crucial. Algumas linguagens de programação comumente utilizadas são:",
+        "list": [
+          "Node.js",
+          "Python",
+          "Java",
+          "Ruby"
+        ],
+        "sections": [
+          {
+            "title": "Node.js",
+            "image": "",
+            "text": "Node.js é um ambiente de execução JavaScript no lado do servidor. Sua arquitetura orientada a eventos é especialmente adequada para aplicações em tempo real e escaláveis."
+          },
+          {
+            "title": "Python",
+            "image": "",
+            "text": "Python é uma linguagem de programação versátil e de alto nível. No desenvolvimento web, frameworks como Django e Flask são populares para criar aplicativos robustos e eficientes."
+          },
+          {
+            "title": "Java",
+            "image": "",
+            "text": "Java é uma linguagem de programação amplamente utilizada para desenvolvimento web backend. Sua portabilidade, segurança e desempenho fazem dela uma escolha comum em grandes sistemas corporativos."
+          },
+          {
+            "title": "Ruby",
+            "image": "",
+            "text": "Ruby é conhecido por sua sintaxe elegante e produtividade. O framework Ruby on Rails simplifica o desenvolvimento web, seguindo o princípio de convenção sobre configuração."
+          }
+        ]
+      },
+      {
+        "title": "Frameworks Backend",
+        "image": "",
+        "text": "No desenvolvimento Fullstack, frameworks backend desempenham um papel essencial. Algumas opções populares são:",
+        "list": [
+          "Express.js",
+          "Django",
+          "Spring Boot",
+          "Ruby on Rails"
+        ],
+        "sections": [
+          {
+            "title": "Express.js",
+            "image": "",
+            "text": "Express.js é um framework para Node.js que simplifica a criação de aplicativos web e APIs. Conhecido por sua simplicidade e flexibilidade, é uma escolha popular para desenvolvimento rápido e eficiente."
+          },
+          {
+            "title": "Django",
+            "image": "",
+            "text": "Django é um framework web em Python que segue o princípio DRY (Don't Repeat Yourself) e visa tornar o desenvolvimento web rápido e limpo. É conhecido por sua simplicidade e pela inclusão de recursos poderosos."
+          },
+          {
+            "title": "Spring Boot",
+            "image": "",
+            "text": "Spring Boot é um framework Java que simplifica o desenvolvimento de aplicativos Java, fornecendo um ambiente de execução pré-configurado. É amplamente utilizado para criar aplicativos empresariais escaláveis e robustos."
+          },
+          {
+            "title": "Ruby on Rails",
+            "image": "",
+            "text": "Ruby on Rails, frequentemente chamado de Rails, é um framework de desenvolvimento web em Ruby. Conhecido por seguir o princípio de convenção sobre configuração, é uma escolha popular para desenvolvimento rápido e consistente."
+          }
+        ]
+      },
+      {
+        "title": "Banco de Dados",
+        "image": "",
+        "text": "O armazenamento e gerenciamento de dados são vitais no desenvolvimento Fullstack. Algumas tecnologias de banco de dados comumente utilizadas são:",
+        "list": [
+          "MongoDB",
+          "MySQL",
+          "PostgreSQL"
+        ],
+        "sections": [
+          {
+            "title": "MongoDB",
+            "image": "",
+            "text": "MongoDB é um banco de dados NoSQL que utiliza documentos JSON para armazenar dados. Sua flexibilidade permite o armazenamento de dados não estruturados e semelhantes a documentos, sendo uma escolha popular para aplicações escaláveis e flexíveis."
+          },
+          {
+            "title": "MySQL",
+            "image": "",
+            "text": "MySQL é um sistema de gerenciamento de banco de dados relacional (RDBMS) que utiliza a linguagem SQL. Ele é conhecido por sua confiabilidade, desempenho e suporte a transações, sendo amplamente utilizado em uma variedade de aplicativos."
+          },
+          {
+            "title": "PostgreSQL",
+            "image": "",
+            "text": "PostgreSQL é um sistema de gerenciamento de banco de dados relacional de código aberto. Ele é conhecido por seu suporte avançado a SQL, extensibilidade e recursos avançados, como suporte a tipos de dados personalizados e índices avançados."
+          }
+        ]
+      },
+      {
+        "title": "Controle de Versão",
+        "image": "",
+        "text": "O controle de versão é essencial no desenvolvimento Fullstack para gerenciar alterações no código-fonte. Algumas plataformas e sistemas comumente utilizados incluem:",
+        "list": [
+          "Git",
+          "GitHub",
+          "GitLab",
+          "Bitbucket"
+        ],
+        "sections": [
+          {
+            "title": "Git",
+            "image": "",
+            "text": "Git é um sistema de controle de versão distribuído amplamente utilizado. Ele permite o rastreamento eficiente de alterações no código, facilitando a colaboração entre desenvolvedores e a manutenção do histórico do projeto."
+          },
+          {
+            "title": "GitHub",
+            "image": "",
+            "text": "GitHub é uma plataforma de hospedagem para projetos Git. Além de oferecer recursos de controle de versão, o GitHub fornece funcionalidades colaborativas, como rastreamento de problemas, solicitações de pull e integração contínua."
+          },
+          {
+            "title": "GitLab",
+            "image": "",
+            "text": "GitLab é uma plataforma semelhante ao GitHub, fornecendo hospedagem para repositórios Git. Ele inclui recursos adicionais, como integração CI/CD, gestão de ciclo de vida de aplicativos e colaboração eficiente."
+          },
+          {
+            "title": "Bitbucket",
+            "image": "",
+            "text": "Bitbucket é uma plataforma de desenvolvimento de software que suporta o controle de versão com Git e Mercurial. Ele oferece recursos como rastreamento de problemas, pipelines de CI/CD e integração com outras ferramentas Atlassian."
+          }
+        ]
+      },
+      {
+        "title": "Arquitetura de Fullstack",
+        "image": "",
         "text": "A arquitetura de software no desenvolvimento Fullstack desempenha um papel crucial na criação de sistemas escaláveis e eficientes. Algumas considerações incluem:",
         "list": [
           "Arquitetura MVC (Model-View-Controller)",
@@ -1310,7 +1529,7 @@
           },
           {
             "title": "APIs RESTful",
-            "image": "URL_DA_IMAGEM",
+            "image": "",
             "text": "As APIs RESTful são fundamentais para a comunicação eficiente entre o frontend e o backend. Elas seguem princípios REST e facilitam a criação de serviços web interoperáveis."
           },
           {
@@ -1321,18 +1540,34 @@
         ]
       },
       {
-        "title": "Desafios no Desenvolvimento Fullstack",
-        "image": "URL_DA_IMAGEM",
+        "title": "Desafios no Fullstack",
+        "image": "",
         "text": "Desenvolver em ambos os lados da aplicação apresenta desafios únicos, tais como:",
         "list": [
           "Manter-se atualizado com as tecnologias",
           "Coordenação entre frontend e backend",
           "Gerenciamento de recursos e escalabilidade"
         ],
-        "sections": []
+        "sections": [
+          {
+            "title": "Manter-se Atualizado com as Tecnologias",
+            "image": "",
+            "text": "O campo de desenvolvimento Fullstack está em constante evolução. Manter-se atualizado com as últimas tendências e atualizações nas tecnologias frontend e backend é essencial para oferecer soluções modernas e eficazes."
+          },
+          {
+            "title": "Coordenação entre Frontend e Backend",
+            "image": "",
+            "text": "A coordenação eficiente entre as equipes de frontend e backend é crucial. Garantir que ambas as partes trabalhem em harmonia, compartilhem informações e compreendam os requisitos é essencial para o sucesso do projeto."
+          },
+          {
+            "title": "Gerenciamento de Recursos e Escalabilidade",
+            "image": "",
+            "text": "O gerenciamento eficaz de recursos e a escalabilidade são desafios comuns no desenvolvimento Fullstack. Isso envolve otimizar o desempenho da aplicação, gerenciar bancos de dados de maneira eficiente e planejar para escalabilidade conforme a demanda do usuário."
+          }
+        ]
       },
       {
-        "title": "Ferramentas no Desenvolvimento Fullstack",
+        "title": "Ferramentas usadas no Fullstack",
         "image": "",
         "text": "Existem várias ferramentas que facilitam o desenvolvimento Fullstack, incluindo:",
         "list": [
@@ -1340,43 +1575,66 @@
           "Frameworks Fullstack",
           "Ferramentas de Controle de Versão"
         ],
-        "sections": []
+        "sections": [
+          {
+            "title": "Ambientes de Desenvolvimento Integrado (IDEs)",
+            "image": "",
+            "text": "IDEs são ferramentas essenciais para desenvolvedores Fullstack. Elas oferecem ambientes integrados para codificação, depuração e teste. Exemplos populares incluem Visual Studio Code, IntelliJ IDEA e Eclipse."
+          },
+          {
+            "title": "Frameworks Fullstack",
+            "image": "",
+            "text": "Frameworks Fullstack são conjuntos de ferramentas e bibliotecas que facilitam o desenvolvimento em ambos os lados da aplicação. Exemplos incluem MEAN Stack (MongoDB, Express.js, Angular, Node.js) e MERN Stack (MongoDB, Express.js, React, Node.js)."
+          },
+          {
+            "title": "Ferramentas de Controle de Versão",
+            "image": "",
+            "text": "Ferramentas de Controle de Versão são cruciais para rastrear alterações no código-fonte. Git, GitHub, GitLab e Bitbucket são exemplos comuns usados para versionamento, colaboração e integração contínua."
+          }
+        ]
       },
       {
         "title": "Implementação de Projeto Fullstack",
-        "image": "URL_DA_IMAGEM",
-        "text": "Ao implementar um projeto Fullstack, é essencial seguir boas práticas. Aqui está um exemplo de implementação:",
-        "list": [],
+        "image": "",
+        "text": "Ao implementar um projeto Fullstack, siga boas práticas. Aqui está um exemplo passo a passo:",
+        "list": [
+          "Planejamento",
+          "Desenvolvimento Frontend",
+          "Desenvolvimento Backend",
+          "Integração e Testes",
+          "Implantação",
+          "Monitoramento e Otimização"
+        ],
         "sections": [
           {
             "title": "Planejamento",
-            "image": "",
-            "text": "Definir requisitos, escolher tecnologias e planejar a arquitetura do sistema."
+            "image": "/images/fullstack.png",
+            "text": "Defina requisitos, escolha tecnologias e planeje a arquitetura do sistema. Isso garante uma base sólida para o sucesso do projeto e facilita o desenvolvimento eficiente e orientado aos objetivos."
           },
           {
             "title": "Desenvolvimento Frontend",
             "image": "",
-            "text": "Criar interfaces de usuário atraentes e responsivas usando tecnologias como HTML, CSS e frameworks frontend."
+            "text": "Crie interfaces envolventes utilizando HTML, CSS e frameworks frontend. Isso proporciona uma experiência visual e interativa, essencial para a satisfação do usuário e a eficácia do sistema."
           },
           {
             "title": "Desenvolvimento Backend",
-            "image": "URL_DA_IMAGEM",
-            "text": "Implementar a lógica de negócios, interação com bancos de dados e serviços web no lado do servidor."
+            "image": "",
+            "text": "Implemente lógica de negócios, interação com bancos de dados e serviços no servidor. Isso garante uma funcionalidade robusta e eficiente, atendendo às necessidades específicas do projeto."
           },
           {
             "title": "Integração e Testes",
             "image": "",
-            "text": "Integrar frontend e backend, realizar testes para garantir a funcionalidade e identificar possíveis problemas."
+            "text": "Integre frontend e backend, realizando testes abrangentes para garantir a funcionalidade e identificar melhorias potenciais. Testes são cruciais para a estabilidade e qualidade do sistema final."
           },
           {
             "title": "Implantação",
             "image": "",
-            "text": "Implantar a aplicação em ambientes de desenvolvimento, teste e produção, configurando servidores e serviços necessários."
+            "text": "Implante em ambientes de desenvolvimento, teste e produção, configurando servidores e serviços. Uma distribuição eficiente é essencial para garantir que o sistema esteja acessível e performático."
           },
           {
             "title": "Monitoramento e Otimização",
             "image": "",
-            "text": "Implementar ferramentas de monitoramento para rastrear o desempenho da aplicação e otimizar conforme necessário."
+            "text": "Implemente ferramentas de monitoramento para rastrear desempenho e otimizar conforme necessário. A busca contínua por eficiência garante uma experiência consistente e melhora a escalabilidade do projeto."
           }
         ]
       },

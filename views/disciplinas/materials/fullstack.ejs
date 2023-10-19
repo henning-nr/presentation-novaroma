@@ -16,8 +16,8 @@
       <div class="slides">
         <!-- ABERTURA -->
         <!-- Fim abertura -->
-        <%for(let [ind, present] of data.entries()){%> <%if(present.list.length
-        === 0){%>
+        <%for(let [ind, present] of data.entries()){%>
+        <%if(present.list.length=== 0){%>
         <section>
           <h1 style="color: yellow; font-size: 7rem; margin-top: -90px">
             <%=present.title%>
@@ -41,6 +41,11 @@
               <%=present.title%>
             </h2>
             <p><%=present.text%></p>
+            <img
+              id="logo"
+              style="width: 10em; margin-top: -35px"
+              src="<%=present.image%>"
+            />
             <ul>
               <%for(let it of present.list){%>
               <li class="fragment fade-down" style="color: #2fff2a"><%=it%></li>
@@ -57,6 +62,11 @@
               <%=present.list[ind]%>
             </h3>
             <p><%=elem.text%></p>
+            <img
+              id="logo"
+              style="width: 10em; margin-top: -35px"
+              src="<%=present.image%>"
+            />
             <!-- <span><%=elem.list%></span> -->
             <%if(elem.list && elem.list.length > 0){%>
             <ul>
