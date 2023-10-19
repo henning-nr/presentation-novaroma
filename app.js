@@ -9,6 +9,7 @@ var usersRouter = require('./routes/users');
 var devopsRouter = require('./routes/devops');
 var sisdisRouter = require('./routes/sisdis');
 var cloudRouter = require('./routes/cloud');
+var fullstackRouter = require('./routes/fullstack');
 
 const jsonServer = require('json-server')
 const server = jsonServer.create()
@@ -39,6 +40,7 @@ app.use('/users', usersRouter);
 app.use('/disciplinas/devops', devopsRouter);
 app.use('/disciplinas/sisdis', sisdisRouter);
 app.use('/disciplinas/cloud', cloudRouter);
+app.use('/disciplinas/fullstack', fullstackRouter);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
