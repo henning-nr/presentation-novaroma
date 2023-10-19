@@ -1236,7 +1236,7 @@
         "sections": []
       },
       {
-        "title": "O que é Desenvolvimento Fullstack?",
+        "title": "O que é Fullstack?",
         "image": "",
         "text": "Desenvolvimento Fullstack refere-se à capacidade de desenvolver tanto o frontend quanto o backend de uma aplicação web. Um desenvolvedor Fullstack possui habilidades tanto no lado do cliente (frontend) quanto no lado do servidor (backend) e é capaz de criar uma aplicação web completa, desde a interface do usuário até o gerenciamento do banco de dados.",
         "list": [],
@@ -1316,7 +1316,7 @@
           {
             "title": "Frameworks como React, Angular ou Vue",
             "image": "",
-            "text": "Frameworks como React, Angular e Vue são ferramentas poderosas para o desenvolvimento Frontend. Eles simplificam a criação de interfaces de usuário complexas, oferecem gerenciamento de estado eficiente e facilitam a manutenção do código."
+            "text": "Frameworks como React, Angular e Vue são ferramentas poderosas para o desenvolvimento Frontend. Eles simplificam a criação de interfaces de usuário complexas, oferecem gerenciamento de estado eficiente e a manutenção do código."
           }
         ]
       },
@@ -1339,7 +1339,7 @@
           {
             "title": "Angular",
             "image": "",
-            "text": "Angular é um framework mantido pelo Google. Ele oferece uma abordagem abrangente para o desenvolvimento frontend, incluindo gerenciamento de estado, injeção de dependência e uma estrutura robusta para a construção de aplicativos escaláveis."
+            "text": "Angular é um framework mantido pelo Google. Ele oferece uma abordagem abrangente para o frontend, incluindo gerenciamento de estado, injeção de dependência e uma estrutura robusta para criar aplicativos escaláveis."
           },
           {
             "title": "Vue",
@@ -1349,7 +1349,7 @@
           {
             "title": "Svelte",
             "image": "",
-            "text": "Svelte é um framework que se destaca por mover a maior parte do trabalho de construção para o tempo de compilação. Isso resulta em aplicativos mais leves e eficientes em tempo de execução, proporcionando uma experiência de desenvolvimento única."
+            "text": "Svelte é um framework que se destaca por mover a maior parte do trabalho de construção para o tempo de compilação. Isso resulta em aplicativos mais leves e eficientes em tempo de execução, com uma experiência de desenvolvimento única."
           }
         ]
       },
@@ -1366,7 +1366,7 @@
           {
             "title": "Server-Side Rendering (SSR)",
             "image": "",
-            "text": "SSR envolve renderização no servidor antes de enviar ao navegador, melhorando SEO e desempenho inicial. Frameworks populares: Next.js (React), Nuxt.js (Vue). Requer processamento no servidor, potencialmente aumentando carga."
+            "text": "SSR envolve renderização no servidor antes de enviar ao navegador, melhorando SEO e desempenho inicial. Frameworks populares: Next.js (React), Nuxt.js (Vue). Requer processamento no servidor e aumentando carga."
           },
           {
             "title": "Client-Side Rendering (CSR)",
@@ -1376,7 +1376,7 @@
           {
             "title": "Static Site Generation (SSG)",
             "image": "",
-            "text": "SSG pré-renderiza páginas, proporcionando desempenho superior e segurança. Conteúdo é gerado como HTML estático, distribuído por CDNs para tempos de carregamento rápidos. Ferramentas populares: Gatsby (React), Gridsome (Vue)."
+            "text": "SSG pré-renderiza páginas, proporcionando desempenho superior e segurança. Conteúdo é gerado como HTML estático, distribuído por CDNs para tempos de carregamento rápidos. Ferramentas: Gatsby (React), Gridsome (Vue)."
           }
         ]
       },
@@ -1442,7 +1442,7 @@
           {
             "title": "Ruby on Rails",
             "image": "",
-            "text": "Ruby on Rails, frequentemente chamado de Rails, é um framework de desenvolvimento web em Ruby. Conhecido por seguir o princípio de convenção sobre configuração, é uma escolha popular para desenvolvimento rápido e consistente."
+            "text": "Ruby on Rails, frequentemente chamado de Rails, é um framework de desenvolvimento web em Ruby. Conhecido por seguir o princípio de convenção sobre configuração, é uma escolha popular de desenvolvimento rápido e consistente."
           }
         ]
       },
@@ -1459,17 +1459,17 @@
           {
             "title": "MongoDB",
             "image": "",
-            "text": "MongoDB é um banco de dados NoSQL que utiliza documentos JSON para armazenar dados. Sua flexibilidade permite o armazenamento de dados não estruturados e semelhantes a documentos, sendo uma escolha popular para aplicações escaláveis e flexíveis."
+            "text": "MongoDB é um banco de dados NoSQL que utiliza documentos JSON para armazenar dados. Sua flexibilidade permite o armazenamento de dados não estruturados e semelhantes a documentos em aplicações escaláveis e flexíveis."
           },
           {
             "title": "MySQL",
             "image": "",
-            "text": "MySQL é um sistema de gerenciamento de banco de dados relacional (RDBMS) que utiliza a linguagem SQL. Ele é conhecido por sua confiabilidade, desempenho e suporte a transações, sendo amplamente utilizado em uma variedade de aplicativos."
+            "text": "MySQL é um sistema de gerenciamento de banco de dados relacional (RDBMS) que utiliza a linguagem SQL. Ele é conhecido por sua confiabilidade, desempenho e suporte a transações com ampla utilização em aplicativos."
           },
           {
             "title": "PostgreSQL",
             "image": "",
-            "text": "PostgreSQL é um sistema de gerenciamento de banco de dados relacional de código aberto. Ele é conhecido por seu suporte avançado a SQL, extensibilidade e recursos avançados, como suporte a tipos de dados personalizados e índices avançados."
+            "text": "PostgreSQL é um sistema de gerenciamento de banco de dados relacional de código aberto. Ele é conhecido por seu suporte avançado a SQL, extensibilidade e recursos avançados, suportando tipos de dados e índices personalizados."
           }
         ]
       },
@@ -1492,7 +1492,7 @@
           {
             "title": "GitHub",
             "image": "",
-            "text": "GitHub é uma plataforma de hospedagem para projetos Git. Além de oferecer recursos de controle de versão, o GitHub fornece funcionalidades colaborativas, como rastreamento de problemas, solicitações de pull e integração contínua."
+            "text": "GitHub é uma plataforma de hospedagem para projetos Git. Além de oferecer recursos de controle de versão, o GitHub fornece funcionalidades como rastreamento de problemas, solicitações de pull e CI."
           },
           {
             "title": "GitLab",
@@ -1562,7 +1562,7 @@
           {
             "title": "Gerenciamento de Recursos e Escalabilidade",
             "image": "",
-            "text": "O gerenciamento eficaz de recursos e a escalabilidade são desafios comuns no desenvolvimento Fullstack. Isso envolve otimizar o desempenho da aplicação, gerenciar bancos de dados de maneira eficiente e planejar para escalabilidade conforme a demanda do usuário."
+            "text": "O gerenciamento eficaz de recursos e a escalabilidade são desafios comuns no desenvolvimento Fullstack. Isso envolve otimizar o desempenho da aplicação, gerenciar bancos de dados e planejar para escalabilidade do usuário."
           }
         ]
       },
@@ -1584,7 +1584,7 @@
           {
             "title": "Frameworks Fullstack",
             "image": "",
-            "text": "Frameworks Fullstack são conjuntos de ferramentas e bibliotecas que facilitam o desenvolvimento em ambos os lados da aplicação. Exemplos incluem MEAN Stack (MongoDB, Express.js, Angular, Node.js) e MERN Stack (MongoDB, Express.js, React, Node.js)."
+            "text": "Frameworks Fullstack são conjuntos de ferramentas e bibliotecas que facilitam o desenvolvimento em ambos os lados da aplicação. Exemplos incluem MEAN Stack (MongoDB, Express.js, Angular, Node.js) - MERN."
           },
           {
             "title": "Ferramentas de Controle de Versão",
@@ -1639,7 +1639,7 @@
         ]
       },
       {
-        "title": "Conclusão sobre Desenvolvimento Fullstack",
+        "title": "Conclusão sobre Fullstack",
         "image": "",
         "text": "O Desenvolvimento Fullstack é uma abordagem abrangente que permite aos desenvolvedores criar aplicações web completas. A compreensão tanto do frontend quanto do backend é essencial para o sucesso na criação de sistemas modernos e eficientes.",
         "list": [],
