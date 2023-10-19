@@ -89,7 +89,7 @@
         {
           "title": "Os desafios do DevOps",
           "image": "https://example.com/services.jpg",
-          "text": "Existem diversos tipos de serviços em Cloud Computing, tais como:",
+          "text": "Existem diversos desafios dentro de devops, como:",
           "list": [
             "Mudança cultural",
             "Integração de ferramentas e sistemas legados",
@@ -190,7 +190,7 @@
         {
           "title": "Resumo Geral",
           "image": "",
-          "text": "Existem diversas ferramentas que auxiliam na implatação do Devops, sendo essas ferramentas de:",
+          "text": "Devops pode ser visto mais por uma visão cultural, mas em resumo temsos:",
           "list": [
             "O Devops",
             "As práticas",
