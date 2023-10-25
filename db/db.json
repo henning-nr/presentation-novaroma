@@ -1238,7 +1238,7 @@
       {
         "title": "O que é Fullstack?",
         "image": "",
-        "text": "Desenvolvimento Fullstack refere-se à capacidade de desenvolver tanto o frontend quanto o backend de uma aplicação web. Um desenvolvedor Fullstack possui habilidades tanto no lado do cliente (frontend) quanto no lado do servidor (backend) e é capaz de criar uma aplicação web completa, desde a interface do usuário até o gerenciamento do banco de dados.",
+        "text": "Desenvolvimento Fullstack refere-se à capacidade de desenvolver tanto o frontend quanto o backend de uma aplicação web. Um desenvolvedor Fullstack possui habilidades tanto no lado do cliente (frontend) quanto no lado do servidor (backend) e é capaz de criar uma aplicação web completa, com banco de dados.",
         "list": [],
         "sections": []
       },
